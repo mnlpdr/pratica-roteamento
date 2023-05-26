@@ -1,0 +1,43 @@
+.menu {
+  display: flex;
+  justify-content: left;
+  padding: 1em;
+}
+
+button[mat-raised-button] {
+  color: #FFFFFF;
+  background-color: #28a745; /* Cor de sucesso padrão do Bootstrap */
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button[mat-raised-button]:hover {
+  background-color: #218838;
+}
+
+button[mat-raised-button]:active {
+  background-color: #1e7e34;
+}
+
+mat-menu {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+button[mat-menu-item] {
+  color: #212529;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button[mat-menu-item]:hover {
+  background-color: #f8f9fa;
+}
+
+button[mat-menu-item]:active {
+  background-color: #e9ecef;
+}

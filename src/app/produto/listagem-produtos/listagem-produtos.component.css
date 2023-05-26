@@ -1,0 +1,64 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+mat-icon {
+  font-size: 2em;
+  color: #007BFF;
+}
+
+.card-produto {
+  margin: 1em;
+  max-width: 400px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.mat-card-header {
+  padding: 1em;
+  background-color: #F5F5F5;
+}
+
+.mat-card-title {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.mat-card-subtitle {
+  font-size: 0.875em;
+  color: #757575;
+}
+
+.mat-card-content {
+  padding: 1em;
+  color: #424242;
+}
+
+.mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #F5F5F5;
+}
+
+button.mat-button {
+  display: flex;
+  align-items: center;
+  color: #007BFF;
+}
+
+button.mat-button:hover {
+  color: #0056b3;
+}
+
+button.mat-button:active {
+  color: #003d80;
+}
+
+mat-icon {
+  margin-right: 0.5em;
+}
